@@ -1,0 +1,15 @@
+integrator      = steep
+emtol           = 1000
+nsteps          = 10000
+nstenergy       = 1
+emstep          = 0.01
+energygrps      = Protein Surface
+
+cutoff-scheme   = Verlet
+nstlist         = 25
+ns_type         = grid
+coulombtype     = PME
+rlist           = 1.0
+rcoulomb        = 1.0
+rvdw            = 1.0
+constraints     = none

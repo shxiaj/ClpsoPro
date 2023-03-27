@@ -1,0 +1,14 @@
+integrator      = steep
+emtol           = 250.0
+nsteps          = 10000
+nstenergy       = 1
+energygrps      = System
+
+cutoff-scheme   = verlet
+nstlist         = 1
+ns_type         = grid
+coulombtype     = PME
+rlist           = 1.0
+rcoulomb        = 1.0
+rvdw            = 1.0
+constraints     = none

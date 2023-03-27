@@ -1,5 +1,7 @@
-# javaPso
-java实现的线性权重递减粒子群优化算法, 包含bash脚本用来实现建模,em能量计算;  
-clpso包里实现了综合性学习的Pso, 一次挑战和改进  
-clpsoChange包里, 增加了位置限制, 不跑白不跑  
-如果后续能加上不同代数的粒子同时进行就完美了  
+# ClpsoPro
+model:实例, 包含一个漆酶模型与力场
+psoem.sh: 自动化建模脚本
+xyz.shxiaj.pso: 最初版本的线性权重递减粒子群优化算法
+xyz.shxiaj.clpso: 后续改进的综合性学习的Pso
+xyz.shxiaj.clpsoChange: 增加位置限制, 不跑白不跑, 提高CPU利用率
+下一步改进: 增加对象序列化, 完善续跑功能, 增加其他运行结果参数的导出
